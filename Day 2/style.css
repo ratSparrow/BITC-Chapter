@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: tomato;
+    display: flex;
+    justify-content: space-between;
+}
+.lists-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+li{
+    list-style-type: none;
+    margin: 4px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.active{
+    font-weight: bold;
+    color: blueviolet;
+    border-bottom: 2px solid blueviolet;
+}
