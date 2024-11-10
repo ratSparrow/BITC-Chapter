@@ -1,0 +1,16 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: tomato;
+}
+nav ul {
+    display: flex;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 16px 24px;
+}
+nav ul li a{
+    text-decoration: none;
+}
